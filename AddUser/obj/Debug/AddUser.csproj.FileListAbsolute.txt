@@ -1,0 +1,32 @@
+C:\Users\pr-22.106-ga\source\repos\nastygl_pr3_22.106\AddUser\bin\Debug\AddUser.exe.config
+C:\Users\pr-22.106-ga\source\repos\nastygl_pr3_22.106\AddUser\bin\Debug\AddUser.exe
+C:\Users\pr-22.106-ga\source\repos\nastygl_pr3_22.106\AddUser\bin\Debug\AddUser.pdb
+C:\Users\pr-22.106-ga\source\repos\nastygl_pr3_22.106\AddUser\bin\Debug\HashPasswords.dll
+C:\Users\pr-22.106-ga\source\repos\nastygl_pr3_22.106\AddUser\bin\Debug\HashPasswords.pdb
+C:\Users\pr-22.106-ga\source\repos\nastygl_pr3_22.106\AddUser\obj\Debug\AddUser.csproj.AssemblyReference.cache
+C:\Users\pr-22.106-ga\source\repos\nastygl_pr3_22.106\AddUser\obj\Debug\AddUser.csproj.SuggestedBindingRedirects.cache
+C:\Users\pr-22.106-ga\source\repos\nastygl_pr3_22.106\AddUser\obj\Debug\AddUser.csproj.CoreCompileInputs.cache
+C:\Users\pr-22.106-ga\source\repos\nastygl_pr3_22.106\AddUser\obj\Debug\AddUser.csproj.CopyComplete
+C:\Users\pr-22.106-ga\source\repos\nastygl_pr3_22.106\AddUser\obj\Debug\AddUser.exe
+C:\Users\pr-22.106-ga\source\repos\nastygl_pr3_22.106\AddUser\obj\Debug\AddUser.pdb
+C:\Users\pr-22.106-ga\source\repos\nastygl_pr3_22.106\AddUser\bin\Debug\EntityFramework.dll
+C:\Users\pr-22.106-ga\source\repos\nastygl_pr3_22.106\AddUser\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\pr-22.106-ga\source\repos\nastygl_pr3_22.106\AddUser\bin\Debug\EntityFramework.xml
+C:\Users\pr-22.106-ga\source\repos\nastygl_pr3_22.106\AddUser\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\pr-22.106-ga\source\repos\nastygl_pr3_22.106\AddUser\bin\Debug\ru\EntityFramework.resources.dll
+C:\Users\psvag\Desktop\практические оап\nastygl_pr3_22.106\AddUser\bin\Debug\AddUser.exe.config
+C:\Users\psvag\Desktop\практические оап\nastygl_pr3_22.106\AddUser\bin\Debug\AddUser.exe
+C:\Users\psvag\Desktop\практические оап\nastygl_pr3_22.106\AddUser\bin\Debug\AddUser.pdb
+C:\Users\psvag\Desktop\практические оап\nastygl_pr3_22.106\AddUser\bin\Debug\EntityFramework.dll
+C:\Users\psvag\Desktop\практические оап\nastygl_pr3_22.106\AddUser\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\psvag\Desktop\практические оап\nastygl_pr3_22.106\AddUser\bin\Debug\HashPasswords.dll
+C:\Users\psvag\Desktop\практические оап\nastygl_pr3_22.106\AddUser\bin\Debug\HashPasswords.pdb
+C:\Users\psvag\Desktop\практические оап\nastygl_pr3_22.106\AddUser\bin\Debug\EntityFramework.xml
+C:\Users\psvag\Desktop\практические оап\nastygl_pr3_22.106\AddUser\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\psvag\Desktop\практические оап\nastygl_pr3_22.106\AddUser\bin\Debug\ru\EntityFramework.resources.dll
+C:\Users\psvag\Desktop\практические оап\nastygl_pr3_22.106\AddUser\obj\Debug\AddUser.csproj.AssemblyReference.cache
+C:\Users\psvag\Desktop\практические оап\nastygl_pr3_22.106\AddUser\obj\Debug\AddUser.csproj.SuggestedBindingRedirects.cache
+C:\Users\psvag\Desktop\практические оап\nastygl_pr3_22.106\AddUser\obj\Debug\AddUser.csproj.CoreCompileInputs.cache
+C:\Users\psvag\Desktop\практические оап\nastygl_pr3_22.106\AddUser\obj\Debug\AddUser.csproj.CopyComplete
+C:\Users\psvag\Desktop\практические оап\nastygl_pr3_22.106\AddUser\obj\Debug\AddUser.exe
+C:\Users\psvag\Desktop\практические оап\nastygl_pr3_22.106\AddUser\obj\Debug\AddUser.pdb

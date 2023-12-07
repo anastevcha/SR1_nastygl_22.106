@@ -1,0 +1,158 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="Хранилище atelieModelContainer" CdmEntityContainer="atelieEntities1">
+    <EntitySetMapping Name="Avtorizacia">
+      <EntityTypeMapping TypeName="atelieModel.Avtorizacia">
+        <MappingFragment StoreEntitySet="Avtorizacia">
+          <ScalarProperty Name="ID_Avtorizacii" ColumnName="ID_Avtorizacii" />
+          <ScalarProperty Name="ID_Sotrudnika" ColumnName="ID_Sotrudnika" />
+          <ScalarProperty Name="Login" ColumnName="Login" />
+          <ScalarProperty Name="Parol" ColumnName="Parol" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Cvet_Materiala">
+      <EntityTypeMapping TypeName="atelieModel.Cvet_Materiala">
+        <MappingFragment StoreEntitySet="Cvet_Materiala">
+          <ScalarProperty Name="ID_Cvet_Materiala" ColumnName="ID_Cvet_Materiala" />
+          <ScalarProperty Name="Cvet_Materiala1" ColumnName="Cvet_Materiala" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Doljnost">
+      <EntityTypeMapping TypeName="atelieModel.Doljnost">
+        <MappingFragment StoreEntitySet="Doljnost">
+          <ScalarProperty Name="ID_Doljnosti" ColumnName="ID_Doljnosti" />
+          <ScalarProperty Name="Doljnost1" ColumnName="Doljnost" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Izdeliya">
+      <EntityTypeMapping TypeName="atelieModel.Izdeliya">
+        <MappingFragment StoreEntitySet="Izdeliya">
+          <ScalarProperty Name="ID_Izdeliya" ColumnName="ID_Izdeliya" />
+          <ScalarProperty Name="Nazvanie_Izdeliya" ColumnName="Nazvanie_Izdeliya" />
+          <ScalarProperty Name="Opisanie" ColumnName="Opisanie" />
+          <ScalarProperty Name="Stoimost_Izdelia" ColumnName="Stoimost_Izdelia" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Klienty">
+      <EntityTypeMapping TypeName="atelieModel.Klienty">
+        <MappingFragment StoreEntitySet="Klienty">
+          <ScalarProperty Name="ID_Klienta" ColumnName="ID_Klienta" />
+          <ScalarProperty Name="Imya" ColumnName="Imya" />
+          <ScalarProperty Name="Familiya" ColumnName="Familiya" />
+          <ScalarProperty Name="Otchestvo" ColumnName="Otchestvo" />
+          <ScalarProperty Name="Nomer_telefona" ColumnName="Nomer_telefona" />
+          <ScalarProperty Name="Adres" ColumnName="Adres" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Materialy">
+      <EntityTypeMapping TypeName="atelieModel.Materialy">
+        <MappingFragment StoreEntitySet="Materialy">
+          <ScalarProperty Name="ID_Materiala" ColumnName="ID_Materiala" />
+          <ScalarProperty Name="Nazvanie_Materiala" ColumnName="Nazvanie_Materiala" />
+          <ScalarProperty Name="Kolvo_Na_Sklade" ColumnName="Kolvo_Na_Sklade" />
+          <ScalarProperty Name="Stoimost" ColumnName="Stoimost" />
+          <ScalarProperty Name="Cvet_Materiala" ColumnName="Cvet_Materiala" />
+          <ScalarProperty Name="Tip_Materiala" ColumnName="Tip_Materiala" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Otchety">
+      <EntityTypeMapping TypeName="atelieModel.Otchety">
+        <MappingFragment StoreEntitySet="Otchety">
+          <ScalarProperty Name="ID_Otcheta" ColumnName="ID_Otcheta" />
+          <ScalarProperty Name="Data_Otcheta" ColumnName="Data_Otcheta" />
+          <ScalarProperty Name="Opisanie_Otcheta" ColumnName="Opisanie_Otcheta" />
+          <ScalarProperty Name="Soderjanie_Otcheta" ColumnName="Soderjanie_Otcheta" />
+          <ScalarProperty Name="ID_Sotrudnika" ColumnName="ID_Sotrudnika" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Otzyvy">
+      <EntityTypeMapping TypeName="atelieModel.Otzyvy">
+        <MappingFragment StoreEntitySet="Otzyvy">
+          <ScalarProperty Name="ID_Otzyvov" ColumnName="ID_Otzyvov" />
+          <ScalarProperty Name="ID_Zakaza" ColumnName="ID_Zakaza" />
+          <ScalarProperty Name="ID_Klienta" ColumnName="ID_Klienta" />
+          <ScalarProperty Name="Data_Otzyva" ColumnName="Data_Otzyva" />
+          <ScalarProperty Name="Soderjanie_Otzyva" ColumnName="Soderjanie_Otzyva" />
+          <ScalarProperty Name="Ocenka_Otzyva" ColumnName="Ocenka_Otzyva" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Skidki">
+      <EntityTypeMapping TypeName="atelieModel.Skidki">
+        <MappingFragment StoreEntitySet="Skidki">
+          <ScalarProperty Name="ID_Skidki" ColumnName="ID_Skidki" />
+          <ScalarProperty Name="Nazvanie_Skidki" ColumnName="Nazvanie_Skidki" />
+          <ScalarProperty Name="Procent_Skidki" ColumnName="Procent_Skidki" />
+          <ScalarProperty Name="Data_Nachala" ColumnName="Data_Nachala" />
+          <ScalarProperty Name="Data_Konca" ColumnName="Data_Konca" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Sotrudniki">
+      <EntityTypeMapping TypeName="atelieModel.Sotrudniki">
+        <MappingFragment StoreEntitySet="Sotrudniki">
+          <ScalarProperty Name="ID_Sotrudnika" ColumnName="ID_Sotrudnika" />
+          <ScalarProperty Name="Familiya" ColumnName="Familiya" />
+          <ScalarProperty Name="Imya" ColumnName="Imya" />
+          <ScalarProperty Name="Otchestvo" ColumnName="Otchestvo" />
+          <ScalarProperty Name="Vozrast" ColumnName="Vozrast" />
+          <ScalarProperty Name="Stag" ColumnName="Stag" />
+          <ScalarProperty Name="Doljnost" ColumnName="Doljnost" />
+          <ScalarProperty Name="Zarplata" ColumnName="Zarplata" />
+          <ScalarProperty Name="Login" ColumnName="Login" />
+          <ScalarProperty Name="Parol" ColumnName="Parol" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Status_Zakaza">
+      <EntityTypeMapping TypeName="atelieModel.Status_Zakaza">
+        <MappingFragment StoreEntitySet="Status_Zakaza">
+          <ScalarProperty Name="ID_Status_Zakaza" ColumnName="ID_Status_Zakaza" />
+          <ScalarProperty Name="Status_Zakaza1" ColumnName="Status_Zakaza" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="sysdiagrams">
+      <EntityTypeMapping TypeName="atelieModel.sysdiagrams">
+        <MappingFragment StoreEntitySet="sysdiagrams">
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="principal_id" ColumnName="principal_id" />
+          <ScalarProperty Name="diagram_id" ColumnName="diagram_id" />
+          <ScalarProperty Name="version" ColumnName="version" />
+          <ScalarProperty Name="definition" ColumnName="definition" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Tip_Materiala">
+      <EntityTypeMapping TypeName="atelieModel.Tip_Materiala">
+        <MappingFragment StoreEntitySet="Tip_Materiala">
+          <ScalarProperty Name="ID_Tip_Materiala" ColumnName="ID_Tip_Materiala" />
+          <ScalarProperty Name="Tip_Materiala1" ColumnName="Tip_Materiala" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Zakazy">
+      <EntityTypeMapping TypeName="atelieModel.Zakazy">
+        <MappingFragment StoreEntitySet="Zakazy">
+          <ScalarProperty Name="ID_Zakaza" ColumnName="ID_Zakaza" />
+          <ScalarProperty Name="ID_klienta" ColumnName="ID_klienta" />
+          <ScalarProperty Name="ID_Izdeliya" ColumnName="ID_Izdeliya" />
+          <ScalarProperty Name="ID_materiala" ColumnName="ID_materiala" />
+          <ScalarProperty Name="ID_sotrudnika" ColumnName="ID_sotrudnika" />
+          <ScalarProperty Name="Opisanie" ColumnName="Opisanie" />
+          <ScalarProperty Name="Data_Zakaza" ColumnName="Data_Zakaza" />
+          <ScalarProperty Name="Summa_Zakaza" ColumnName="Summa_Zakaza" />
+          <ScalarProperty Name="Status_Zakaza" ColumnName="Status_Zakaza" />
+          <ScalarProperty Name="Skidki" ColumnName="Skidki" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

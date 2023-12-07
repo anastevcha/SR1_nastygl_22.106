@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="27d2f7e9b95648e4a66fb25e8732c866" Name="Diagram1">
+        <EntityTypeShape EntityType="atelieModel.Avtorizacia" Width="1.5" PointX="1.5" PointY="26.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="atelieModel.Cvet_Materiala" Width="1.5" PointX="1.5" PointY="10.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="atelieModel.Doljnost" Width="1.5" PointX="1.5" PointY="28.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="atelieModel.Izdeliya" Width="1.5" PointX="3.75" PointY="8.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="atelieModel.Klienty" Width="1.5" PointX="0.75" PointY="4.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="atelieModel.Materialy" Width="1.5" PointX="3.75" PointY="12.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="atelieModel.Modeli" Width="1.5" PointX="3.75" PointY="17.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="atelieModel.Otchety" Width="1.5" PointX="6" PointY="27.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="atelieModel.Otzyvy" Width="1.5" PointX="3" PointY="4.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="atelieModel.Postavshiki" Width="1.5" PointX="1.5" PointY="13.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="atelieModel.Razmer_Odejdy" Width="1.5" PointX="3.75" PointY="20.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="atelieModel.Skidki" Width="1.5" PointX="3.75" PointY="23.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="atelieModel.Sklad" Width="1.5" PointX="6" PointY="18" IsExpanded="true" />
+        <EntityTypeShape EntityType="atelieModel.Sotrudniki" Width="1.5" PointX="3.75" PointY="26.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="atelieModel.Status_Zakaza" Width="1.5" PointX="3.75" PointY="31.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="atelieModel.sysdiagrams" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="atelieModel.Tip_Materiala" Width="1.5" PointX="1.5" PointY="15.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="atelieModel.Zakazy" Width="1.5" PointX="6" PointY="2.875" IsExpanded="true" />
+        <AssociationConnector Association="atelieModel.FK_Sotrudniki_Avtorizacia" ManuallyRouted="false" />
+        <AssociationConnector Association="atelieModel.FK_Materialy_Cvet_Materiala" ManuallyRouted="false" />
+        <AssociationConnector Association="atelieModel.FK_Sotrudniki_Doljnost" ManuallyRouted="false" />
+        <AssociationConnector Association="atelieModel.FK_Zakazy_Izdeliya" ManuallyRouted="false" />
+        <AssociationConnector Association="atelieModel.FK_Otzyvy_Klienty" ManuallyRouted="false" />
+        <AssociationConnector Association="atelieModel.FK_Zakazy_Klienty" ManuallyRouted="false" />
+        <AssociationConnector Association="atelieModel.FK_Materialy_Postavshiki" ManuallyRouted="false" />
+        <AssociationConnector Association="atelieModel.FK_Materialy_Tip_Materiala" ManuallyRouted="false" />
+        <AssociationConnector Association="atelieModel.FK_Zakazy_Materialy" ManuallyRouted="false" />
+        <AssociationConnector Association="atelieModel.FK_Sklad_Modeli" ManuallyRouted="false" />
+        <AssociationConnector Association="atelieModel.FK_Zakazy_Modeli" ManuallyRouted="false" />
+        <AssociationConnector Association="atelieModel.FK_Otchety_Sotrudniki" ManuallyRouted="false" />
+        <AssociationConnector Association="atelieModel.FK_Otzyvy_Zakazy" ManuallyRouted="false" />
+        <AssociationConnector Association="atelieModel.FK_Zakazy_Razmer_Odejdy" ManuallyRouted="false" />
+        <AssociationConnector Association="atelieModel.FK_Zakazy_Skidki" ManuallyRouted="false" />
+        <AssociationConnector Association="atelieModel.FK_Zakazy_Sotrudniki" ManuallyRouted="false" />
+        <AssociationConnector Association="atelieModel.FK_Zakazy_Status_Zakaza" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

@@ -1,0 +1,503 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="atelieModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Avtorizacia">
+    <Key>
+      <PropertyRef Name="ID_Avtorizacii" />
+    </Key>
+    <Property Name="ID_Avtorizacii" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Login" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Parol" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="Sotrudniki" Relationship="Self.FK_Sotrudniki_Avtorizacia" FromRole="Avtorizacia" ToRole="Sotrudniki" />
+  </EntityType>
+  <EntityType Name="Cvet_Materiala">
+    <Key>
+      <PropertyRef Name="ID_Cvet_Materiala" />
+    </Key>
+    <Property Name="ID_Cvet_Materiala" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Cvet_Materiala1" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="Materialy" Relationship="Self.FK_Materialy_Cvet_Materiala" FromRole="Cvet_Materiala" ToRole="Materialy" />
+  </EntityType>
+  <EntityType Name="Doljnost">
+    <Key>
+      <PropertyRef Name="ID_Doljnosti" />
+    </Key>
+    <Property Name="ID_Doljnosti" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Nazvanie" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="Sotrudniki" Relationship="Self.FK_Sotrudniki_Doljnost" FromRole="Doljnost" ToRole="Sotrudniki" />
+  </EntityType>
+  <EntityType Name="Izdeliya">
+    <Key>
+      <PropertyRef Name="ID_Izdeliya" />
+    </Key>
+    <Property Name="ID_Izdeliya" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Nazvanie_Izdeliya" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Opisanie" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Stoimost_Izdelia" Type="Decimal" Precision="19" Scale="4" Nullable="false" />
+    <NavigationProperty Name="Zakazy" Relationship="Self.FK_Zakazy_Izdeliya" FromRole="Izdeliya" ToRole="Zakazy" />
+  </EntityType>
+  <EntityType Name="Klienty">
+    <Key>
+      <PropertyRef Name="ID_Klienta" />
+    </Key>
+    <Property Name="ID_Klienta" Type="Int32" Nullable="false" />
+    <Property Name="Imya" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Familiya" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Otchestvo" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Nomer_telefona" Type="Decimal" Precision="16" Scale="0" Nullable="false" />
+    <Property Name="Adres" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="Otzyvy" Relationship="Self.FK_Otzyvy_Klienty" FromRole="Klienty" ToRole="Otzyvy" />
+    <NavigationProperty Name="Zakazy" Relationship="Self.FK_Zakazy_Klienty" FromRole="Klienty" ToRole="Zakazy" />
+  </EntityType>
+  <EntityType Name="Materialy">
+    <Key>
+      <PropertyRef Name="ID_Materiala" />
+    </Key>
+    <Property Name="ID_Materiala" Type="Int32" Nullable="false" />
+    <Property Name="Nazvanie_Materiala" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Kolvo_Na_Sklade" Type="Int32" Nullable="false" />
+    <Property Name="Stoimost_Za_Metr" Type="Decimal" Precision="19" Scale="4" Nullable="false" />
+    <Property Name="Cvet_Materiala" Type="Int32" Nullable="false" />
+    <Property Name="Tip_Materiala" Type="Int32" Nullable="false" />
+    <Property Name="Prochnost_Materiala" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Postavshik" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Cvet_Materiala1" Relationship="Self.FK_Materialy_Cvet_Materiala" FromRole="Materialy" ToRole="Cvet_Materiala" />
+    <NavigationProperty Name="Postavshiki" Relationship="Self.FK_Materialy_Postavshiki" FromRole="Materialy" ToRole="Postavshiki" />
+    <NavigationProperty Name="Tip_Materiala1" Relationship="Self.FK_Materialy_Tip_Materiala" FromRole="Materialy" ToRole="Tip_Materiala" />
+    <NavigationProperty Name="Zakazy" Relationship="Self.FK_Zakazy_Materialy" FromRole="Materialy" ToRole="Zakazy" />
+  </EntityType>
+  <EntityType Name="Modeli">
+    <Key>
+      <PropertyRef Name="ID_Modeli" />
+    </Key>
+    <Property Name="ID_Modeli" Type="Int32" Nullable="false" />
+    <Property Name="Nazvanie_Modeni" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Opisanie" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Cena" Type="Decimal" Precision="19" Scale="4" Nullable="false" />
+    <NavigationProperty Name="Sklad" Relationship="Self.FK_Sklad_Modeli" FromRole="Modeli" ToRole="Sklad" />
+    <NavigationProperty Name="Zakazy" Relationship="Self.FK_Zakazy_Modeli" FromRole="Modeli" ToRole="Zakazy" />
+  </EntityType>
+  <EntityType Name="Otchety">
+    <Key>
+      <PropertyRef Name="ID_Otcheta" />
+    </Key>
+    <Property Name="ID_Otcheta" Type="Int32" Nullable="false" />
+    <Property Name="Data_Otcheta" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="Opisanie_Otcheta" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Soderjanie_Otcheta" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="ID_Sotrudnika" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Sotrudniki" Relationship="Self.FK_Otchety_Sotrudniki" FromRole="Otchety" ToRole="Sotrudniki" />
+  </EntityType>
+  <EntityType Name="Otzyvy">
+    <Key>
+      <PropertyRef Name="ID_Otzyvov" />
+    </Key>
+    <Property Name="ID_Otzyvov" Type="Int32" Nullable="false" />
+    <Property Name="ID_Zakaza" Type="Int32" Nullable="false" />
+    <Property Name="ID_Klienta" Type="Int32" Nullable="false" />
+    <Property Name="Data_Otzyva" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="Soderjanie_Otzyva" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Ocenka_Otzyva" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Klienty" Relationship="Self.FK_Otzyvy_Klienty" FromRole="Otzyvy" ToRole="Klienty" />
+    <NavigationProperty Name="Zakazy" Relationship="Self.FK_Otzyvy_Zakazy" FromRole="Otzyvy" ToRole="Zakazy" />
+  </EntityType>
+  <EntityType Name="Postavshiki">
+    <Key>
+      <PropertyRef Name="ID_Postavshika" />
+    </Key>
+    <Property Name="ID_Postavshika" Type="Int32" Nullable="false" />
+    <Property Name="Postavshik" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="Materialy" Relationship="Self.FK_Materialy_Postavshiki" FromRole="Postavshiki" ToRole="Materialy" />
+  </EntityType>
+  <EntityType Name="Razmer_Odejdy">
+    <Key>
+      <PropertyRef Name="ID_Razmera" />
+    </Key>
+    <Property Name="ID_Razmera" Type="Int32" Nullable="false" />
+    <Property Name="Tip_Odejdi" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Razmer" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="Zakazy" Relationship="Self.FK_Zakazy_Razmer_Odejdy" FromRole="Razmer_Odejdy" ToRole="Zakazy" />
+  </EntityType>
+  <EntityType Name="Skidki">
+    <Key>
+      <PropertyRef Name="ID_Skidki" />
+    </Key>
+    <Property Name="ID_Skidki" Type="Int32" Nullable="false" />
+    <Property Name="Nazvanie_Skidki" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Procent_Skidki" Type="Int32" Nullable="false" />
+    <Property Name="Data_Nachala" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="Data_Konca" Type="DateTime" Nullable="false" Precision="0" />
+    <NavigationProperty Name="Zakazy" Relationship="Self.FK_Zakazy_Skidki" FromRole="Skidki" ToRole="Zakazy" />
+  </EntityType>
+  <EntityType Name="Sklad">
+    <Key>
+      <PropertyRef Name="ID_Sklada" />
+    </Key>
+    <Property Name="ID_Sklada" Type="Int32" Nullable="false" />
+    <Property Name="ID_Modeli" Type="Int32" Nullable="false" />
+    <Property Name="Kolvo_Na_Sklade" Type="Int32" Nullable="false" />
+    <Property Name="Data_Postupleniya" Type="DateTime" Nullable="false" Precision="0" />
+    <NavigationProperty Name="Modeli" Relationship="Self.FK_Sklad_Modeli" FromRole="Sklad" ToRole="Modeli" />
+  </EntityType>
+  <EntityType Name="Sotrudniki">
+    <Key>
+      <PropertyRef Name="ID_Sotrudnika" />
+    </Key>
+    <Property Name="ID_Sotrudnika" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Familiya" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Imya" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Otchestvo" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Vozrast" Type="Int32" Nullable="false" />
+    <Property Name="Stag" Type="Int32" Nullable="false" />
+    <Property Name="Doljnost" Type="Int32" Nullable="false" />
+    <Property Name="Zarplata" Type="Decimal" Precision="19" Scale="4" Nullable="false" />
+    <Property Name="ID_Avtorizacii" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Avtorizacia" Relationship="Self.FK_Sotrudniki_Avtorizacia" FromRole="Sotrudniki" ToRole="Avtorizacia" />
+    <NavigationProperty Name="Doljnost1" Relationship="Self.FK_Sotrudniki_Doljnost" FromRole="Sotrudniki" ToRole="Doljnost" />
+    <NavigationProperty Name="Otchety" Relationship="Self.FK_Otchety_Sotrudniki" FromRole="Sotrudniki" ToRole="Otchety" />
+    <NavigationProperty Name="Zakazy" Relationship="Self.FK_Zakazy_Sotrudniki" FromRole="Sotrudniki" ToRole="Zakazy" />
+  </EntityType>
+  <EntityType Name="Status_Zakaza">
+    <Key>
+      <PropertyRef Name="ID_Status_Zakaza" />
+    </Key>
+    <Property Name="ID_Status_Zakaza" Type="Int32" Nullable="false" />
+    <Property Name="Status_Zakaza1" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="Zakazy" Relationship="Self.FK_Zakazy_Status_Zakaza" FromRole="Status_Zakaza" ToRole="Zakazy" />
+  </EntityType>
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="String" MaxLength="128" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="principal_id" Type="Int32" Nullable="false" />
+    <Property Name="diagram_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="version" Type="Int32" />
+    <Property Name="definition" Type="Binary" MaxLength="Max" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="Tip_Materiala">
+    <Key>
+      <PropertyRef Name="ID_Tip_Materiala" />
+    </Key>
+    <Property Name="ID_Tip_Materiala" Type="Int32" Nullable="false" />
+    <Property Name="Tip_Materiala1" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="Materialy" Relationship="Self.FK_Materialy_Tip_Materiala" FromRole="Tip_Materiala" ToRole="Materialy" />
+  </EntityType>
+  <EntityType Name="Zakazy">
+    <Key>
+      <PropertyRef Name="ID_Zakaza" />
+    </Key>
+    <Property Name="ID_Zakaza" Type="Int32" Nullable="false" />
+    <Property Name="ID_klienta" Type="Int32" Nullable="false" />
+    <Property Name="ID_Izdeliya" Type="Int32" Nullable="false" />
+    <Property Name="ID_materiala" Type="Int32" Nullable="false" />
+    <Property Name="ID_sotrudnika" Type="Int32" Nullable="false" />
+    <Property Name="Opisanie" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Data_Zakaza" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="Summa_Zakaza" Type="Decimal" Precision="19" Scale="4" Nullable="false" />
+    <Property Name="Status_Zakaza" Type="Int32" Nullable="false" />
+    <Property Name="Skidki" Type="Int32" Nullable="false" />
+    <Property Name="ID_Modeli" Type="Int32" Nullable="false" />
+    <Property Name="ID_Razmera" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Izdeliya" Relationship="Self.FK_Zakazy_Izdeliya" FromRole="Zakazy" ToRole="Izdeliya" />
+    <NavigationProperty Name="Klienty" Relationship="Self.FK_Zakazy_Klienty" FromRole="Zakazy" ToRole="Klienty" />
+    <NavigationProperty Name="Materialy" Relationship="Self.FK_Zakazy_Materialy" FromRole="Zakazy" ToRole="Materialy" />
+    <NavigationProperty Name="Modeli" Relationship="Self.FK_Zakazy_Modeli" FromRole="Zakazy" ToRole="Modeli" />
+    <NavigationProperty Name="Otzyvy" Relationship="Self.FK_Otzyvy_Zakazy" FromRole="Zakazy" ToRole="Otzyvy" />
+    <NavigationProperty Name="Razmer_Odejdy" Relationship="Self.FK_Zakazy_Razmer_Odejdy" FromRole="Zakazy" ToRole="Razmer_Odejdy" />
+    <NavigationProperty Name="Skidki1" Relationship="Self.FK_Zakazy_Skidki" FromRole="Zakazy" ToRole="Skidki" />
+    <NavigationProperty Name="Sotrudniki" Relationship="Self.FK_Zakazy_Sotrudniki" FromRole="Zakazy" ToRole="Sotrudniki" />
+    <NavigationProperty Name="Status_Zakaza1" Relationship="Self.FK_Zakazy_Status_Zakaza" FromRole="Zakazy" ToRole="Status_Zakaza" />
+  </EntityType>
+  <Association Name="FK_Sotrudniki_Avtorizacia">
+    <End Role="Avtorizacia" Type="Self.Avtorizacia" Multiplicity="1" />
+    <End Role="Sotrudniki" Type="Self.Sotrudniki" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Avtorizacia">
+        <PropertyRef Name="ID_Avtorizacii" />
+      </Principal>
+      <Dependent Role="Sotrudniki">
+        <PropertyRef Name="ID_Avtorizacii" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Materialy_Cvet_Materiala">
+    <End Role="Cvet_Materiala" Type="Self.Cvet_Materiala" Multiplicity="1" />
+    <End Role="Materialy" Type="Self.Materialy" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Cvet_Materiala">
+        <PropertyRef Name="ID_Cvet_Materiala" />
+      </Principal>
+      <Dependent Role="Materialy">
+        <PropertyRef Name="Cvet_Materiala" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Sotrudniki_Doljnost">
+    <End Role="Doljnost" Type="Self.Doljnost" Multiplicity="1" />
+    <End Role="Sotrudniki" Type="Self.Sotrudniki" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Doljnost">
+        <PropertyRef Name="ID_Doljnosti" />
+      </Principal>
+      <Dependent Role="Sotrudniki">
+        <PropertyRef Name="Doljnost" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Zakazy_Izdeliya">
+    <End Role="Izdeliya" Type="Self.Izdeliya" Multiplicity="1" />
+    <End Role="Zakazy" Type="Self.Zakazy" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Izdeliya">
+        <PropertyRef Name="ID_Izdeliya" />
+      </Principal>
+      <Dependent Role="Zakazy">
+        <PropertyRef Name="ID_Izdeliya" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Otzyvy_Klienty">
+    <End Role="Klienty" Type="Self.Klienty" Multiplicity="1" />
+    <End Role="Otzyvy" Type="Self.Otzyvy" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Klienty">
+        <PropertyRef Name="ID_Klienta" />
+      </Principal>
+      <Dependent Role="Otzyvy">
+        <PropertyRef Name="ID_Klienta" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Zakazy_Klienty">
+    <End Role="Klienty" Type="Self.Klienty" Multiplicity="1" />
+    <End Role="Zakazy" Type="Self.Zakazy" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Klienty">
+        <PropertyRef Name="ID_Klienta" />
+      </Principal>
+      <Dependent Role="Zakazy">
+        <PropertyRef Name="ID_klienta" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Materialy_Postavshiki">
+    <End Role="Postavshiki" Type="Self.Postavshiki" Multiplicity="1" />
+    <End Role="Materialy" Type="Self.Materialy" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Postavshiki">
+        <PropertyRef Name="ID_Postavshika" />
+      </Principal>
+      <Dependent Role="Materialy">
+        <PropertyRef Name="Postavshik" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Materialy_Tip_Materiala">
+    <End Role="Tip_Materiala" Type="Self.Tip_Materiala" Multiplicity="1" />
+    <End Role="Materialy" Type="Self.Materialy" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Tip_Materiala">
+        <PropertyRef Name="ID_Tip_Materiala" />
+      </Principal>
+      <Dependent Role="Materialy">
+        <PropertyRef Name="Tip_Materiala" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Zakazy_Materialy">
+    <End Role="Materialy" Type="Self.Materialy" Multiplicity="1" />
+    <End Role="Zakazy" Type="Self.Zakazy" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Materialy">
+        <PropertyRef Name="ID_Materiala" />
+      </Principal>
+      <Dependent Role="Zakazy">
+        <PropertyRef Name="ID_materiala" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Sklad_Modeli">
+    <End Role="Modeli" Type="Self.Modeli" Multiplicity="1" />
+    <End Role="Sklad" Type="Self.Sklad" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Modeli">
+        <PropertyRef Name="ID_Modeli" />
+      </Principal>
+      <Dependent Role="Sklad">
+        <PropertyRef Name="ID_Modeli" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Zakazy_Modeli">
+    <End Role="Modeli" Type="Self.Modeli" Multiplicity="1" />
+    <End Role="Zakazy" Type="Self.Zakazy" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Modeli">
+        <PropertyRef Name="ID_Modeli" />
+      </Principal>
+      <Dependent Role="Zakazy">
+        <PropertyRef Name="ID_Modeli" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Otchety_Sotrudniki">
+    <End Role="Sotrudniki" Type="Self.Sotrudniki" Multiplicity="1" />
+    <End Role="Otchety" Type="Self.Otchety" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Sotrudniki">
+        <PropertyRef Name="ID_Sotrudnika" />
+      </Principal>
+      <Dependent Role="Otchety">
+        <PropertyRef Name="ID_Sotrudnika" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Otzyvy_Zakazy">
+    <End Role="Zakazy" Type="Self.Zakazy" Multiplicity="1" />
+    <End Role="Otzyvy" Type="Self.Otzyvy" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Zakazy">
+        <PropertyRef Name="ID_Zakaza" />
+      </Principal>
+      <Dependent Role="Otzyvy">
+        <PropertyRef Name="ID_Zakaza" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Zakazy_Razmer_Odejdy">
+    <End Role="Razmer_Odejdy" Type="Self.Razmer_Odejdy" Multiplicity="1" />
+    <End Role="Zakazy" Type="Self.Zakazy" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Razmer_Odejdy">
+        <PropertyRef Name="ID_Razmera" />
+      </Principal>
+      <Dependent Role="Zakazy">
+        <PropertyRef Name="ID_Razmera" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Zakazy_Skidki">
+    <End Role="Skidki" Type="Self.Skidki" Multiplicity="1" />
+    <End Role="Zakazy" Type="Self.Zakazy" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Skidki">
+        <PropertyRef Name="ID_Skidki" />
+      </Principal>
+      <Dependent Role="Zakazy">
+        <PropertyRef Name="Skidki" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Zakazy_Sotrudniki">
+    <End Role="Sotrudniki" Type="Self.Sotrudniki" Multiplicity="1" />
+    <End Role="Zakazy" Type="Self.Zakazy" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Sotrudniki">
+        <PropertyRef Name="ID_Sotrudnika" />
+      </Principal>
+      <Dependent Role="Zakazy">
+        <PropertyRef Name="ID_sotrudnika" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Zakazy_Status_Zakaza">
+    <End Role="Status_Zakaza" Type="Self.Status_Zakaza" Multiplicity="1" />
+    <End Role="Zakazy" Type="Self.Zakazy" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Status_Zakaza">
+        <PropertyRef Name="ID_Status_Zakaza" />
+      </Principal>
+      <Dependent Role="Zakazy">
+        <PropertyRef Name="Status_Zakaza" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="atelieEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Avtorizacia" EntityType="Self.Avtorizacia" />
+    <EntitySet Name="Cvet_Materiala" EntityType="Self.Cvet_Materiala" />
+    <EntitySet Name="Doljnost" EntityType="Self.Doljnost" />
+    <EntitySet Name="Izdeliya" EntityType="Self.Izdeliya" />
+    <EntitySet Name="Klienty" EntityType="Self.Klienty" />
+    <EntitySet Name="Materialy" EntityType="Self.Materialy" />
+    <EntitySet Name="Modeli" EntityType="Self.Modeli" />
+    <EntitySet Name="Otchety" EntityType="Self.Otchety" />
+    <EntitySet Name="Otzyvy" EntityType="Self.Otzyvy" />
+    <EntitySet Name="Postavshiki" EntityType="Self.Postavshiki" />
+    <EntitySet Name="Razmer_Odejdy" EntityType="Self.Razmer_Odejdy" />
+    <EntitySet Name="Skidki" EntityType="Self.Skidki" />
+    <EntitySet Name="Sklad" EntityType="Self.Sklad" />
+    <EntitySet Name="Sotrudniki" EntityType="Self.Sotrudniki" />
+    <EntitySet Name="Status_Zakaza" EntityType="Self.Status_Zakaza" />
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" />
+    <EntitySet Name="Tip_Materiala" EntityType="Self.Tip_Materiala" />
+    <EntitySet Name="Zakazy" EntityType="Self.Zakazy" />
+    <AssociationSet Name="FK_Sotrudniki_Avtorizacia" Association="Self.FK_Sotrudniki_Avtorizacia">
+      <End Role="Avtorizacia" EntitySet="Avtorizacia" />
+      <End Role="Sotrudniki" EntitySet="Sotrudniki" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Materialy_Cvet_Materiala" Association="Self.FK_Materialy_Cvet_Materiala">
+      <End Role="Cvet_Materiala" EntitySet="Cvet_Materiala" />
+      <End Role="Materialy" EntitySet="Materialy" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Sotrudniki_Doljnost" Association="Self.FK_Sotrudniki_Doljnost">
+      <End Role="Doljnost" EntitySet="Doljnost" />
+      <End Role="Sotrudniki" EntitySet="Sotrudniki" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Zakazy_Izdeliya" Association="Self.FK_Zakazy_Izdeliya">
+      <End Role="Izdeliya" EntitySet="Izdeliya" />
+      <End Role="Zakazy" EntitySet="Zakazy" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Otzyvy_Klienty" Association="Self.FK_Otzyvy_Klienty">
+      <End Role="Klienty" EntitySet="Klienty" />
+      <End Role="Otzyvy" EntitySet="Otzyvy" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Zakazy_Klienty" Association="Self.FK_Zakazy_Klienty">
+      <End Role="Klienty" EntitySet="Klienty" />
+      <End Role="Zakazy" EntitySet="Zakazy" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Materialy_Postavshiki" Association="Self.FK_Materialy_Postavshiki">
+      <End Role="Postavshiki" EntitySet="Postavshiki" />
+      <End Role="Materialy" EntitySet="Materialy" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Materialy_Tip_Materiala" Association="Self.FK_Materialy_Tip_Materiala">
+      <End Role="Tip_Materiala" EntitySet="Tip_Materiala" />
+      <End Role="Materialy" EntitySet="Materialy" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Zakazy_Materialy" Association="Self.FK_Zakazy_Materialy">
+      <End Role="Materialy" EntitySet="Materialy" />
+      <End Role="Zakazy" EntitySet="Zakazy" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Sklad_Modeli" Association="Self.FK_Sklad_Modeli">
+      <End Role="Modeli" EntitySet="Modeli" />
+      <End Role="Sklad" EntitySet="Sklad" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Zakazy_Modeli" Association="Self.FK_Zakazy_Modeli">
+      <End Role="Modeli" EntitySet="Modeli" />
+      <End Role="Zakazy" EntitySet="Zakazy" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Otchety_Sotrudniki" Association="Self.FK_Otchety_Sotrudniki">
+      <End Role="Sotrudniki" EntitySet="Sotrudniki" />
+      <End Role="Otchety" EntitySet="Otchety" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Otzyvy_Zakazy" Association="Self.FK_Otzyvy_Zakazy">
+      <End Role="Zakazy" EntitySet="Zakazy" />
+      <End Role="Otzyvy" EntitySet="Otzyvy" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Zakazy_Razmer_Odejdy" Association="Self.FK_Zakazy_Razmer_Odejdy">
+      <End Role="Razmer_Odejdy" EntitySet="Razmer_Odejdy" />
+      <End Role="Zakazy" EntitySet="Zakazy" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Zakazy_Skidki" Association="Self.FK_Zakazy_Skidki">
+      <End Role="Skidki" EntitySet="Skidki" />
+      <End Role="Zakazy" EntitySet="Zakazy" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Zakazy_Sotrudniki" Association="Self.FK_Zakazy_Sotrudniki">
+      <End Role="Sotrudniki" EntitySet="Sotrudniki" />
+      <End Role="Zakazy" EntitySet="Zakazy" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Zakazy_Status_Zakaza" Association="Self.FK_Zakazy_Status_Zakaza">
+      <End Role="Status_Zakaza" EntitySet="Status_Zakaza" />
+      <End Role="Zakazy" EntitySet="Zakazy" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>
