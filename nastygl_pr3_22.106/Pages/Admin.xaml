@@ -6,9 +6,56 @@
       xmlns:local="clr-namespace:nastygl_pr3_22._106.Pages"
       mc:Ignorable="d" 
       d:DesignHeight="450" d:DesignWidth="800"
-      Title="Admin">
-
+      Title="Admin" Background="White">
     <Grid>
-        <TextBlock x:Name="txtbOpisanie" Text="Админ" FontSize="25"/>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="60"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Button Grid.Row="0" x:Name="btnAdd" HorizontalAlignment="Left" Content="Добавить" Click="btnAdd_Click" Margin="26,10,0,10"/>
+        <Button Grid.Row="0" x:Name="btnPoisk" HorizontalAlignment="Left" Content="Поиск" Click="btnPoisk_Click" Margin="187,10,0,10"/>
+        <Button Grid.Row="0" x:Name="btnExcel" HorizontalAlignment="Left" Content="Ecxel" Click="btnExcel_Click" Margin="713,10,0,10" Width="77"/>
+        <Button Grid.Row="0" x:Name="btnPechat" HorizontalAlignment="Left" Content="Печать" Click="btnPechat_Click" Margin="619,10,0,10" Width="79"/>
+        <Button Grid.Row="0" x:Name="btnSklad" HorizontalAlignment="Left" Content="Склад" Click="btnSklad_Click" Margin="513,10,0,10" Width="82"/>
+        <Button Grid.Row="0" x:Name="btnSort" HorizontalAlignment="Left" Margin="357,10,0,10" Content="Сортировать" Visibility="Hidden"/>
+        <TextBox x:Name="txtbPoisk" Width="150" Height="24" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="342,0,0,0" TextAlignment="Left" />
+        <ComboBox Grid.Row="0" x:Name="cmbVubor" Width="192" Height="30" HorizontalAlignment="Left" Margin="151,15,0,15" Visibility="Hidden">
+            <TextBlock Text="По возрастанию" Margin="0"/>
+            <TextBlock Text="По убыванию" Margin="0"/>
+        </ComboBox>
+
+        <FlowDocumentReader Grid.Row="1">
+            <FlowDocument x:Name="flowDoc">
+                <BlockUIContainer>
+                    <ListView x:Name="listSotrudniki" HorizontalContentAlignment="Stretch">
+                        <ListView.ItemsPanel>
+                            <ItemsPanelTemplate>
+                                <WrapPanel Orientation="Horizontal" Width="{Binding ActualWidth, ElementName=listSotrudniki}"/>
+                            </ItemsPanelTemplate>
+                        </ListView.ItemsPanel>
+                        <ListView.ItemTemplate>
+                            <DataTemplate>
+                                <Border BorderBrush="Black" BorderThickness="1" Background="{Binding Sotrudniki}" HorizontalAlignment="Stretch" MouseLeftButtonDown="ListViewItem_MouseDoubleClick">
+                                    <Grid x:Name="dataSotrudnik">
+                                        <Grid.RowDefinitions>
+                                            <RowDefinition Height="100"/>
+                                            <RowDefinition Height="100"/>
+                                        </Grid.RowDefinitions>
+                                        <Image  Grid.Row="0" Width="80" Height="80" Margin="1" Source="/Resources/User.jpg"/>
+                                        <StackPanel Grid.Row="1" Margin="1" Width="150" HorizontalAlignment="Stretch">
+                                            <TextBlock Text="{Binding Familiya}" HorizontalAlignment="Center" Margin="1"/>
+                                            <TextBlock Text="{Binding Imya}" FontWeight="Bold" HorizontalAlignment="Center" Margin="1"/>
+                                            <TextBlock Text="{Binding Otchestvo}" HorizontalAlignment="Center" Margin="1"/>
+                                        </StackPanel>
+                                    </Grid>
+                                </Border>
+                            </DataTemplate>
+                        </ListView.ItemTemplate>
+                    </ListView>
+                </BlockUIContainer>
+            </FlowDocument>
+        </FlowDocumentReader>
+
     </Grid>
+
 </Page>

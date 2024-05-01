@@ -10,5 +10,6 @@
 
     <Grid>
         <TextBlock x:Name="txtbOpisanie" Text="Консультант" FontSize="25"/>
+        <TextBlock x:Name="txtbFIO" Text="ФИО" FontSize="25" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="0,45,0,0" />
     </Grid>
 </Page>

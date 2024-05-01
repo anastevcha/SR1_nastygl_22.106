@@ -19,14 +19,44 @@ C:\Users\psvag\Desktop\практические оап\nastygl_pr3_22.106\AddUse
 C:\Users\psvag\Desktop\практические оап\nastygl_pr3_22.106\AddUser\bin\Debug\AddUser.pdb
 C:\Users\psvag\Desktop\практические оап\nastygl_pr3_22.106\AddUser\bin\Debug\EntityFramework.dll
 C:\Users\psvag\Desktop\практические оап\nastygl_pr3_22.106\AddUser\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\psvag\Desktop\практические оап\nastygl_pr3_22.106\AddUser\bin\Debug\FluentValidation.dll
 C:\Users\psvag\Desktop\практические оап\nastygl_pr3_22.106\AddUser\bin\Debug\HashPasswords.dll
+C:\Users\psvag\Desktop\практические оап\nastygl_pr3_22.106\AddUser\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\psvag\Desktop\практические оап\nastygl_pr3_22.106\AddUser\bin\Debug\System.Threading.Tasks.Extensions.dll
 C:\Users\psvag\Desktop\практические оап\nastygl_pr3_22.106\AddUser\bin\Debug\HashPasswords.pdb
 C:\Users\psvag\Desktop\практические оап\nastygl_pr3_22.106\AddUser\bin\Debug\EntityFramework.xml
 C:\Users\psvag\Desktop\практические оап\nastygl_pr3_22.106\AddUser\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\psvag\Desktop\практические оап\nastygl_pr3_22.106\AddUser\bin\Debug\FluentValidation.xml
+C:\Users\psvag\Desktop\практические оап\nastygl_pr3_22.106\AddUser\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\psvag\Desktop\практические оап\nastygl_pr3_22.106\AddUser\bin\Debug\System.Threading.Tasks.Extensions.xml
 C:\Users\psvag\Desktop\практические оап\nastygl_pr3_22.106\AddUser\bin\Debug\ru\EntityFramework.resources.dll
+C:\Users\psvag\Desktop\практические оап\nastygl_pr3_22.106\AddUser\bin\Debug\ru\EntityFramework.SqlServer.resources.dll
 C:\Users\psvag\Desktop\практические оап\nastygl_pr3_22.106\AddUser\obj\Debug\AddUser.csproj.AssemblyReference.cache
 C:\Users\psvag\Desktop\практические оап\nastygl_pr3_22.106\AddUser\obj\Debug\AddUser.csproj.SuggestedBindingRedirects.cache
 C:\Users\psvag\Desktop\практические оап\nastygl_pr3_22.106\AddUser\obj\Debug\AddUser.csproj.CoreCompileInputs.cache
 C:\Users\psvag\Desktop\практические оап\nastygl_pr3_22.106\AddUser\obj\Debug\AddUser.csproj.CopyComplete
 C:\Users\psvag\Desktop\практические оап\nastygl_pr3_22.106\AddUser\obj\Debug\AddUser.exe
 C:\Users\psvag\Desktop\практические оап\nastygl_pr3_22.106\AddUser\obj\Debug\AddUser.pdb
+C:\Users\psvag\Desktop\practicheskie\nastygl_pr3_22.106\AddUser\bin\Debug\AddUser.exe.config
+C:\Users\psvag\Desktop\practicheskie\nastygl_pr3_22.106\AddUser\bin\Debug\AddUser.exe
+C:\Users\psvag\Desktop\practicheskie\nastygl_pr3_22.106\AddUser\bin\Debug\AddUser.pdb
+C:\Users\psvag\Desktop\practicheskie\nastygl_pr3_22.106\AddUser\bin\Debug\EntityFramework.dll
+C:\Users\psvag\Desktop\practicheskie\nastygl_pr3_22.106\AddUser\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\psvag\Desktop\practicheskie\nastygl_pr3_22.106\AddUser\bin\Debug\FluentValidation.dll
+C:\Users\psvag\Desktop\practicheskie\nastygl_pr3_22.106\AddUser\bin\Debug\HashPasswords.dll
+C:\Users\psvag\Desktop\practicheskie\nastygl_pr3_22.106\AddUser\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\psvag\Desktop\practicheskie\nastygl_pr3_22.106\AddUser\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\psvag\Desktop\practicheskie\nastygl_pr3_22.106\AddUser\bin\Debug\HashPasswords.pdb
+C:\Users\psvag\Desktop\practicheskie\nastygl_pr3_22.106\AddUser\bin\Debug\EntityFramework.xml
+C:\Users\psvag\Desktop\practicheskie\nastygl_pr3_22.106\AddUser\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\psvag\Desktop\practicheskie\nastygl_pr3_22.106\AddUser\bin\Debug\FluentValidation.xml
+C:\Users\psvag\Desktop\practicheskie\nastygl_pr3_22.106\AddUser\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\psvag\Desktop\practicheskie\nastygl_pr3_22.106\AddUser\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\psvag\Desktop\practicheskie\nastygl_pr3_22.106\AddUser\bin\Debug\ru\EntityFramework.resources.dll
+C:\Users\psvag\Desktop\practicheskie\nastygl_pr3_22.106\AddUser\bin\Debug\ru\EntityFramework.SqlServer.resources.dll
+C:\Users\psvag\Desktop\practicheskie\nastygl_pr3_22.106\AddUser\obj\Debug\AddUser.csproj.AssemblyReference.cache
+C:\Users\psvag\Desktop\practicheskie\nastygl_pr3_22.106\AddUser\obj\Debug\AddUser.csproj.SuggestedBindingRedirects.cache
+C:\Users\psvag\Desktop\practicheskie\nastygl_pr3_22.106\AddUser\obj\Debug\AddUser.csproj.CoreCompileInputs.cache
+C:\Users\psvag\Desktop\practicheskie\nastygl_pr3_22.106\AddUser\obj\Debug\AddUser.csproj.CopyComplete
+C:\Users\psvag\Desktop\practicheskie\nastygl_pr3_22.106\AddUser\obj\Debug\AddUser.exe
+C:\Users\psvag\Desktop\practicheskie\nastygl_pr3_22.106\AddUser\obj\Debug\AddUser.pdb

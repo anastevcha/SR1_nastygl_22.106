@@ -8,7 +8,13 @@ using System.Threading.Tasks;
 namespace HashPasswords
 {
     public class Class1
+        
     {
+        /// <summary>
+        /// Метод принимает пароль в строковом представлении
+        /// </summary>
+        /// <param name="password"></param>
+        /// <returns>Вернет строку в хэшированном виде</returns>
         public static string HashPassword(string password)
         {
             using (SHA256 sha256Hash = SHA256.Create())

@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:nastygl_pr3_22._106"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800" Icon="/Resources/47a5d4cf263ae5f7ee7729857f6df517.jpg">
+        Title="MainWindow" Height="600" Width="800" Icon="/Resources/47a5d4cf263ae5f7ee7729857f6df517.jpg">
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="60"/>

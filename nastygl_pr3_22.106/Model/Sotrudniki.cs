@@ -41,12 +41,15 @@ namespace nastygl_pr3_22._106.Model
 
         public int ID_Avtorizacii { get; set; }
 
-        public virtual Avtorizacia Avtorizacia { get; set; }
+        [StringLength(50)]
+        public string Email { get; set; }
 
-        public virtual Doljnost Doljnost1 { get; set; }
+        public int? ID_Pasporta { get; set; }
 
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<Otchety> Otchety { get; set; }
+
+        public virtual Pasport Pasport { get; set; }
 
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<Zakazy> Zakazy { get; set; }

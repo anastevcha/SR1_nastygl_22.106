@@ -41,12 +41,25 @@
     <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
       <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
     </Reference>
+    <Reference Include="FluentValidation, Version=11.0.0.0, Culture=neutral, PublicKeyToken=7de548da2fbae0f0, processorArchitecture=MSIL">
+      <HintPath>..\packages\FluentValidation.11.9.0\lib\netstandard2.0\FluentValidation.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Office.Interop.Word, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Office.Interop.Word.15.0.4797.1004\lib\net20\Microsoft.Office.Interop.Word.dll</HintPath>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Data" />
     <Reference Include="System.Drawing" />
+    <Reference Include="System.Runtime.CompilerServices.Unsafe, Version=4.0.4.1, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Runtime.CompilerServices.Unsafe.4.5.3\lib\net461\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
+    </Reference>
     <Reference Include="System.Runtime.Serialization" />
     <Reference Include="System.Security" />
+    <Reference Include="System.Threading.Tasks.Extensions, Version=4.2.0.1, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Threading.Tasks.Extensions.4.5.4\lib\net461\System.Threading.Tasks.Extensions.dll</HintPath>
+    </Reference>
     <Reference Include="System.Xml" />
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Core" />
@@ -77,6 +90,10 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Page Include="Pages\AddUser.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Pages\Admin.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -85,7 +102,19 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="Pages\ChangePassword.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\Client.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Pages\Dizayner.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\Edit.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -101,12 +130,39 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="Pages\Potverjdenie_Parolya.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Pages\Rabotnik_Sklada.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\SkladOtchet.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Model2\atelie2Model.cs" />
+    <Compile Include="Model2\Avtorizacia.cs" />
+    <Compile Include="Model2\Cvet_Materiala.cs" />
+    <Compile Include="Model2\Doljnost.cs" />
+    <Compile Include="Model2\Izdeliya.cs" />
+    <Compile Include="Model2\Klienty.cs" />
+    <Compile Include="Model2\Materialy.cs" />
+    <Compile Include="Model2\Modeli.cs" />
+    <Compile Include="Model2\Otchety.cs" />
+    <Compile Include="Model2\Otzyvy.cs" />
+    <Compile Include="Model2\Postavshiki.cs" />
+    <Compile Include="Model2\Razmer_Odejdy.cs" />
+    <Compile Include="Model2\Skidki.cs" />
+    <Compile Include="Model2\Sklad.cs" />
+    <Compile Include="Model2\Sotrudniki.cs" />
+    <Compile Include="Model2\Status_Zakaza.cs" />
+    <Compile Include="Model2\sysdiagrams.cs" />
+    <Compile Include="Model2\Tip_Materiala.cs" />
+    <Compile Include="Model2\Zakazy.cs" />
     <Compile Include="Model\Avtorizacia.cs" />
     <Compile Include="Model\Cvet_Materiala.cs" />
     <Compile Include="Model\Doljnost.cs" />
@@ -117,6 +173,7 @@
     <Compile Include="Model\Modeli.cs" />
     <Compile Include="Model\Otchety.cs" />
     <Compile Include="Model\Otzyvy.cs" />
+    <Compile Include="Model\Pasport.cs" />
     <Compile Include="Model\Postavshiki.cs" />
     <Compile Include="Model\Razmer_Odejdy.cs" />
     <Compile Include="Model\Skidki.cs" />
@@ -126,14 +183,26 @@
     <Compile Include="Model\sysdiagrams.cs" />
     <Compile Include="Model\Tip_Materiala.cs" />
     <Compile Include="Model\Zakazy.cs" />
+    <Compile Include="Pages\AddUser.xaml.cs">
+      <DependentUpon>AddUser.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Pages\Admin.xaml.cs">
       <DependentUpon>Admin.xaml</DependentUpon>
     </Compile>
     <Compile Include="Pages\Autho.xaml.cs">
       <DependentUpon>Autho.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Pages\ChangePassword.xaml.cs">
+      <DependentUpon>ChangePassword.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Client.xaml.cs">
+      <DependentUpon>Client.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Pages\Dizayner.xaml.cs">
       <DependentUpon>Dizayner.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Edit.xaml.cs">
+      <DependentUpon>Edit.xaml</DependentUpon>
     </Compile>
     <Compile Include="Pages\Guests.xaml.cs">
       <DependentUpon>Guests.xaml</DependentUpon>
@@ -144,8 +213,14 @@
     <Compile Include="Pages\Portnoy.xaml.cs">
       <DependentUpon>Portnoy.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Pages\Potverjdenie_Parolya.xaml.cs">
+      <DependentUpon>Potverjdenie_Parolya.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Pages\Rabotnik_Sklada.xaml.cs">
       <DependentUpon>Rabotnik_Sklada.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\SkladOtchet.xaml.cs">
+      <DependentUpon>SkladOtchet.xaml</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs">
       <SubType>Code</SubType>
@@ -191,6 +266,38 @@
       <Project>{d32cbdd5-c76b-4dad-92a6-6f1287650697}</Project>
       <Name>HashPasswords</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\user.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="Microsoft.Office.Core">
+      <Guid>{2DF8D04C-5BFA-101B-BDE5-00AA0044DE52}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>8</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="Microsoft.Office.Interop.Excel">
+      <Guid>{00020813-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>9</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="VBIDE">
+      <Guid>{0002E157-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>5</VersionMajor>
+      <VersionMinor>3</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

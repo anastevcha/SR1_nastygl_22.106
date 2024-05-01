@@ -45,23 +45,52 @@ C:\Users\psvag\Desktop\практические оап\nastygl_pr3_22.106\nastyg
 C:\Users\psvag\Desktop\практические оап\nastygl_pr3_22.106\nastygl_pr3_22.106\bin\Debug\AddUser.exe
 C:\Users\psvag\Desktop\практические оап\nastygl_pr3_22.106\nastygl_pr3_22.106\bin\Debug\EntityFramework.dll
 C:\Users\psvag\Desktop\практические оап\nastygl_pr3_22.106\nastygl_pr3_22.106\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\psvag\Desktop\практические оап\nastygl_pr3_22.106\nastygl_pr3_22.106\bin\Debug\FluentValidation.dll
 C:\Users\psvag\Desktop\практические оап\nastygl_pr3_22.106\nastygl_pr3_22.106\bin\Debug\HashPasswords.dll
+C:\Users\psvag\Desktop\практические оап\nastygl_pr3_22.106\nastygl_pr3_22.106\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\psvag\Desktop\практические оап\nastygl_pr3_22.106\nastygl_pr3_22.106\bin\Debug\System.Threading.Tasks.Extensions.dll
 C:\Users\psvag\Desktop\практические оап\nastygl_pr3_22.106\nastygl_pr3_22.106\bin\Debug\AddUser.pdb
 C:\Users\psvag\Desktop\практические оап\nastygl_pr3_22.106\nastygl_pr3_22.106\bin\Debug\AddUser.exe.config
 C:\Users\psvag\Desktop\практические оап\nastygl_pr3_22.106\nastygl_pr3_22.106\bin\Debug\HashPasswords.pdb
 C:\Users\psvag\Desktop\практические оап\nastygl_pr3_22.106\nastygl_pr3_22.106\bin\Debug\EntityFramework.xml
 C:\Users\psvag\Desktop\практические оап\nastygl_pr3_22.106\nastygl_pr3_22.106\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\psvag\Desktop\практические оап\nastygl_pr3_22.106\nastygl_pr3_22.106\bin\Debug\FluentValidation.xml
+C:\Users\psvag\Desktop\практические оап\nastygl_pr3_22.106\nastygl_pr3_22.106\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\psvag\Desktop\практические оап\nastygl_pr3_22.106\nastygl_pr3_22.106\bin\Debug\System.Threading.Tasks.Extensions.xml
 C:\Users\psvag\Desktop\практические оап\nastygl_pr3_22.106\nastygl_pr3_22.106\bin\Debug\ru\EntityFramework.resources.dll
+C:\Users\psvag\Desktop\практические оап\nastygl_pr3_22.106\nastygl_pr3_22.106\bin\Debug\ru\EntityFramework.SqlServer.resources.dll
 C:\Users\psvag\Desktop\практические оап\nastygl_pr3_22.106\nastygl_pr3_22.106\obj\Debug\nastygl_pr3_22.106.csproj.AssemblyReference.cache
 C:\Users\psvag\Desktop\практические оап\nastygl_pr3_22.106\nastygl_pr3_22.106\obj\Debug\nastygl_pr3_22.106.csproj.SuggestedBindingRedirects.cache
 C:\Users\psvag\Desktop\практические оап\nastygl_pr3_22.106\nastygl_pr3_22.106\obj\Debug\MainWindow.g.cs
+C:\Users\psvag\Desktop\практические оап\nastygl_pr3_22.106\nastygl_pr3_22.106\obj\Debug\Pages\AddUser.g.cs
+C:\Users\psvag\Desktop\практические оап\nastygl_pr3_22.106\nastygl_pr3_22.106\obj\Debug\Pages\Admin.g.cs
 C:\Users\psvag\Desktop\практические оап\nastygl_pr3_22.106\nastygl_pr3_22.106\obj\Debug\Pages\Autho.g.cs
+C:\Users\psvag\Desktop\практические оап\nastygl_pr3_22.106\nastygl_pr3_22.106\obj\Debug\Pages\ChangePassword.g.cs
+C:\Users\psvag\Desktop\практические оап\nastygl_pr3_22.106\nastygl_pr3_22.106\obj\Debug\Pages\Client.g.cs
+C:\Users\psvag\Desktop\практические оап\nastygl_pr3_22.106\nastygl_pr3_22.106\obj\Debug\Pages\Dizayner.g.cs
+C:\Users\psvag\Desktop\практические оап\nastygl_pr3_22.106\nastygl_pr3_22.106\obj\Debug\Pages\Edit.g.cs
+C:\Users\psvag\Desktop\практические оап\nastygl_pr3_22.106\nastygl_pr3_22.106\obj\Debug\Pages\Guests.g.cs
+C:\Users\psvag\Desktop\практические оап\nastygl_pr3_22.106\nastygl_pr3_22.106\obj\Debug\Pages\Konsultant.g.cs
+C:\Users\psvag\Desktop\практические оап\nastygl_pr3_22.106\nastygl_pr3_22.106\obj\Debug\Pages\Portnoy.g.cs
+C:\Users\psvag\Desktop\практические оап\nastygl_pr3_22.106\nastygl_pr3_22.106\obj\Debug\Pages\Potverjdenie_Parolya.g.cs
+C:\Users\psvag\Desktop\практические оап\nastygl_pr3_22.106\nastygl_pr3_22.106\obj\Debug\Pages\Rabotnik_Sklada.g.cs
 C:\Users\psvag\Desktop\практические оап\nastygl_pr3_22.106\nastygl_pr3_22.106\obj\Debug\App.g.cs
 C:\Users\psvag\Desktop\практические оап\nastygl_pr3_22.106\nastygl_pr3_22.106\obj\Debug\nastygl_pr3_22.106_MarkupCompile.cache
 C:\Users\psvag\Desktop\практические оап\nastygl_pr3_22.106\nastygl_pr3_22.106\obj\Debug\nastygl_pr3_22.106_MarkupCompile.lref
 C:\Users\psvag\Desktop\практические оап\nastygl_pr3_22.106\nastygl_pr3_22.106\obj\Debug\App.baml
 C:\Users\psvag\Desktop\практические оап\nastygl_pr3_22.106\nastygl_pr3_22.106\obj\Debug\MainWindow.baml
+C:\Users\psvag\Desktop\практические оап\nastygl_pr3_22.106\nastygl_pr3_22.106\obj\Debug\Pages\AddUser.baml
+C:\Users\psvag\Desktop\практические оап\nastygl_pr3_22.106\nastygl_pr3_22.106\obj\Debug\Pages\Admin.baml
 C:\Users\psvag\Desktop\практические оап\nastygl_pr3_22.106\nastygl_pr3_22.106\obj\Debug\Pages\Autho.baml
+C:\Users\psvag\Desktop\практические оап\nastygl_pr3_22.106\nastygl_pr3_22.106\obj\Debug\Pages\ChangePassword.baml
+C:\Users\psvag\Desktop\практические оап\nastygl_pr3_22.106\nastygl_pr3_22.106\obj\Debug\Pages\Client.baml
+C:\Users\psvag\Desktop\практические оап\nastygl_pr3_22.106\nastygl_pr3_22.106\obj\Debug\Pages\Dizayner.baml
+C:\Users\psvag\Desktop\практические оап\nastygl_pr3_22.106\nastygl_pr3_22.106\obj\Debug\Pages\Edit.baml
+C:\Users\psvag\Desktop\практические оап\nastygl_pr3_22.106\nastygl_pr3_22.106\obj\Debug\Pages\Guests.baml
+C:\Users\psvag\Desktop\практические оап\nastygl_pr3_22.106\nastygl_pr3_22.106\obj\Debug\Pages\Konsultant.baml
+C:\Users\psvag\Desktop\практические оап\nastygl_pr3_22.106\nastygl_pr3_22.106\obj\Debug\Pages\Portnoy.baml
+C:\Users\psvag\Desktop\практические оап\nastygl_pr3_22.106\nastygl_pr3_22.106\obj\Debug\Pages\Potverjdenie_Parolya.baml
+C:\Users\psvag\Desktop\практические оап\nastygl_pr3_22.106\nastygl_pr3_22.106\obj\Debug\Pages\Rabotnik_Sklada.baml
 C:\Users\psvag\Desktop\практические оап\nastygl_pr3_22.106\nastygl_pr3_22.106\obj\Debug\nastygl_pr3_22.106.g.resources
 C:\Users\psvag\Desktop\практические оап\nastygl_pr3_22.106\nastygl_pr3_22.106\obj\Debug\nastygl_pr3_22._106.Properties.Resources.resources
 C:\Users\psvag\Desktop\практические оап\nastygl_pr3_22.106\nastygl_pr3_22.106\obj\Debug\nastygl_pr3_22.106.csproj.GenerateResource.cache
@@ -69,15 +98,67 @@ C:\Users\psvag\Desktop\практические оап\nastygl_pr3_22.106\nastyg
 C:\Users\psvag\Desktop\практические оап\nastygl_pr3_22.106\nastygl_pr3_22.106\obj\Debug\nastygl_pr3_22.106.csproj.CopyComplete
 C:\Users\psvag\Desktop\практические оап\nastygl_pr3_22.106\nastygl_pr3_22.106\obj\Debug\nastygl_pr3_22.106.exe
 C:\Users\psvag\Desktop\практические оап\nastygl_pr3_22.106\nastygl_pr3_22.106\obj\Debug\nastygl_pr3_22.106.pdb
-C:\Users\psvag\Desktop\практические оап\nastygl_pr3_22.106\nastygl_pr3_22.106\obj\Debug\Pages\Admin.g.cs
-C:\Users\psvag\Desktop\практические оап\nastygl_pr3_22.106\nastygl_pr3_22.106\obj\Debug\Pages\Admin.baml
-C:\Users\psvag\Desktop\практические оап\nastygl_pr3_22.106\nastygl_pr3_22.106\obj\Debug\Pages\Dizayner.g.cs
-C:\Users\psvag\Desktop\практические оап\nastygl_pr3_22.106\nastygl_pr3_22.106\obj\Debug\Pages\Guests.g.cs
-C:\Users\psvag\Desktop\практические оап\nastygl_pr3_22.106\nastygl_pr3_22.106\obj\Debug\Pages\Konsultant.g.cs
-C:\Users\psvag\Desktop\практические оап\nastygl_pr3_22.106\nastygl_pr3_22.106\obj\Debug\Pages\Portnoy.g.cs
-C:\Users\psvag\Desktop\практические оап\nastygl_pr3_22.106\nastygl_pr3_22.106\obj\Debug\Pages\Rabotnik_Sklada.g.cs
-C:\Users\psvag\Desktop\практические оап\nastygl_pr3_22.106\nastygl_pr3_22.106\obj\Debug\Pages\Dizayner.baml
-C:\Users\psvag\Desktop\практические оап\nastygl_pr3_22.106\nastygl_pr3_22.106\obj\Debug\Pages\Guests.baml
-C:\Users\psvag\Desktop\практические оап\nastygl_pr3_22.106\nastygl_pr3_22.106\obj\Debug\Pages\Konsultant.baml
-C:\Users\psvag\Desktop\практические оап\nastygl_pr3_22.106\nastygl_pr3_22.106\obj\Debug\Pages\Portnoy.baml
-C:\Users\psvag\Desktop\практические оап\nastygl_pr3_22.106\nastygl_pr3_22.106\obj\Debug\Pages\Rabotnik_Sklada.baml
+C:\Users\psvag\Desktop\практические оап\nastygl_pr3_22.106\nastygl_pr3_22.106\obj\Debug\Pages\SkladOtchet.g.cs
+C:\Users\psvag\Desktop\практические оап\nastygl_pr3_22.106\nastygl_pr3_22.106\obj\Debug\Pages\SkladOtchet.baml
+C:\Users\psvag\Desktop\practicheskie\nastygl_pr3_22.106\nastygl_pr3_22.106\obj\Debug\nastygl_pr3_22.106.csproj.AssemblyReference.cache
+C:\Users\psvag\Desktop\practicheskie\nastygl_pr3_22.106\nastygl_pr3_22.106\obj\Debug\nastygl_pr3_22.106.csproj.SuggestedBindingRedirects.cache
+C:\Users\psvag\Desktop\practicheskie\nastygl_pr3_22.106\nastygl_pr3_22.106\obj\Debug\MainWindow.g.cs
+C:\Users\psvag\Desktop\practicheskie\nastygl_pr3_22.106\nastygl_pr3_22.106\obj\Debug\Pages\AddUser.g.cs
+C:\Users\psvag\Desktop\practicheskie\nastygl_pr3_22.106\nastygl_pr3_22.106\obj\Debug\Pages\Admin.g.cs
+C:\Users\psvag\Desktop\practicheskie\nastygl_pr3_22.106\nastygl_pr3_22.106\obj\Debug\Pages\Autho.g.cs
+C:\Users\psvag\Desktop\practicheskie\nastygl_pr3_22.106\nastygl_pr3_22.106\obj\Debug\Pages\ChangePassword.g.cs
+C:\Users\psvag\Desktop\practicheskie\nastygl_pr3_22.106\nastygl_pr3_22.106\obj\Debug\Pages\Client.g.cs
+C:\Users\psvag\Desktop\practicheskie\nastygl_pr3_22.106\nastygl_pr3_22.106\obj\Debug\Pages\Dizayner.g.cs
+C:\Users\psvag\Desktop\practicheskie\nastygl_pr3_22.106\nastygl_pr3_22.106\obj\Debug\Pages\Edit.g.cs
+C:\Users\psvag\Desktop\practicheskie\nastygl_pr3_22.106\nastygl_pr3_22.106\obj\Debug\Pages\Guests.g.cs
+C:\Users\psvag\Desktop\practicheskie\nastygl_pr3_22.106\nastygl_pr3_22.106\obj\Debug\Pages\Konsultant.g.cs
+C:\Users\psvag\Desktop\practicheskie\nastygl_pr3_22.106\nastygl_pr3_22.106\obj\Debug\Pages\Portnoy.g.cs
+C:\Users\psvag\Desktop\practicheskie\nastygl_pr3_22.106\nastygl_pr3_22.106\obj\Debug\Pages\Potverjdenie_Parolya.g.cs
+C:\Users\psvag\Desktop\practicheskie\nastygl_pr3_22.106\nastygl_pr3_22.106\obj\Debug\Pages\Rabotnik_Sklada.g.cs
+C:\Users\psvag\Desktop\practicheskie\nastygl_pr3_22.106\nastygl_pr3_22.106\obj\Debug\Pages\SkladOtchet.g.cs
+C:\Users\psvag\Desktop\practicheskie\nastygl_pr3_22.106\nastygl_pr3_22.106\obj\Debug\App.g.cs
+C:\Users\psvag\Desktop\practicheskie\nastygl_pr3_22.106\nastygl_pr3_22.106\obj\Debug\nastygl_pr3_22.106_MarkupCompile.cache
+C:\Users\psvag\Desktop\practicheskie\nastygl_pr3_22.106\nastygl_pr3_22.106\obj\Debug\nastygl_pr3_22.106_MarkupCompile.lref
+C:\Users\psvag\Desktop\practicheskie\nastygl_pr3_22.106\nastygl_pr3_22.106\obj\Debug\nastygl_pr3_22.106.exe
+C:\Users\psvag\Desktop\practicheskie\nastygl_pr3_22.106\nastygl_pr3_22.106\obj\Debug\nastygl_pr3_22.106.pdb
+C:\Users\psvag\Desktop\practicheskie\nastygl_pr3_22.106\nastygl_pr3_22.106\bin\Debug\nastygl_pr3_22.106.exe.config
+C:\Users\psvag\Desktop\practicheskie\nastygl_pr3_22.106\nastygl_pr3_22.106\bin\Debug\nastygl_pr3_22.106.exe
+C:\Users\psvag\Desktop\practicheskie\nastygl_pr3_22.106\nastygl_pr3_22.106\bin\Debug\nastygl_pr3_22.106.pdb
+C:\Users\psvag\Desktop\practicheskie\nastygl_pr3_22.106\nastygl_pr3_22.106\bin\Debug\AddUser.exe
+C:\Users\psvag\Desktop\practicheskie\nastygl_pr3_22.106\nastygl_pr3_22.106\bin\Debug\EntityFramework.dll
+C:\Users\psvag\Desktop\practicheskie\nastygl_pr3_22.106\nastygl_pr3_22.106\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\psvag\Desktop\practicheskie\nastygl_pr3_22.106\nastygl_pr3_22.106\bin\Debug\FluentValidation.dll
+C:\Users\psvag\Desktop\practicheskie\nastygl_pr3_22.106\nastygl_pr3_22.106\bin\Debug\HashPasswords.dll
+C:\Users\psvag\Desktop\practicheskie\nastygl_pr3_22.106\nastygl_pr3_22.106\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\psvag\Desktop\practicheskie\nastygl_pr3_22.106\nastygl_pr3_22.106\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\psvag\Desktop\practicheskie\nastygl_pr3_22.106\nastygl_pr3_22.106\bin\Debug\AddUser.pdb
+C:\Users\psvag\Desktop\practicheskie\nastygl_pr3_22.106\nastygl_pr3_22.106\bin\Debug\AddUser.exe.config
+C:\Users\psvag\Desktop\practicheskie\nastygl_pr3_22.106\nastygl_pr3_22.106\bin\Debug\HashPasswords.pdb
+C:\Users\psvag\Desktop\practicheskie\nastygl_pr3_22.106\nastygl_pr3_22.106\bin\Debug\EntityFramework.xml
+C:\Users\psvag\Desktop\practicheskie\nastygl_pr3_22.106\nastygl_pr3_22.106\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\psvag\Desktop\practicheskie\nastygl_pr3_22.106\nastygl_pr3_22.106\bin\Debug\FluentValidation.xml
+C:\Users\psvag\Desktop\practicheskie\nastygl_pr3_22.106\nastygl_pr3_22.106\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\psvag\Desktop\practicheskie\nastygl_pr3_22.106\nastygl_pr3_22.106\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\psvag\Desktop\practicheskie\nastygl_pr3_22.106\nastygl_pr3_22.106\bin\Debug\ru\EntityFramework.resources.dll
+C:\Users\psvag\Desktop\practicheskie\nastygl_pr3_22.106\nastygl_pr3_22.106\bin\Debug\ru\EntityFramework.SqlServer.resources.dll
+C:\Users\psvag\Desktop\practicheskie\nastygl_pr3_22.106\nastygl_pr3_22.106\obj\Debug\App.baml
+C:\Users\psvag\Desktop\practicheskie\nastygl_pr3_22.106\nastygl_pr3_22.106\obj\Debug\MainWindow.baml
+C:\Users\psvag\Desktop\practicheskie\nastygl_pr3_22.106\nastygl_pr3_22.106\obj\Debug\Pages\AddUser.baml
+C:\Users\psvag\Desktop\practicheskie\nastygl_pr3_22.106\nastygl_pr3_22.106\obj\Debug\Pages\Admin.baml
+C:\Users\psvag\Desktop\practicheskie\nastygl_pr3_22.106\nastygl_pr3_22.106\obj\Debug\Pages\Autho.baml
+C:\Users\psvag\Desktop\practicheskie\nastygl_pr3_22.106\nastygl_pr3_22.106\obj\Debug\Pages\ChangePassword.baml
+C:\Users\psvag\Desktop\practicheskie\nastygl_pr3_22.106\nastygl_pr3_22.106\obj\Debug\Pages\Client.baml
+C:\Users\psvag\Desktop\practicheskie\nastygl_pr3_22.106\nastygl_pr3_22.106\obj\Debug\Pages\Dizayner.baml
+C:\Users\psvag\Desktop\practicheskie\nastygl_pr3_22.106\nastygl_pr3_22.106\obj\Debug\Pages\Edit.baml
+C:\Users\psvag\Desktop\practicheskie\nastygl_pr3_22.106\nastygl_pr3_22.106\obj\Debug\Pages\Guests.baml
+C:\Users\psvag\Desktop\practicheskie\nastygl_pr3_22.106\nastygl_pr3_22.106\obj\Debug\Pages\Konsultant.baml
+C:\Users\psvag\Desktop\practicheskie\nastygl_pr3_22.106\nastygl_pr3_22.106\obj\Debug\Pages\Portnoy.baml
+C:\Users\psvag\Desktop\practicheskie\nastygl_pr3_22.106\nastygl_pr3_22.106\obj\Debug\Pages\Potverjdenie_Parolya.baml
+C:\Users\psvag\Desktop\practicheskie\nastygl_pr3_22.106\nastygl_pr3_22.106\obj\Debug\Pages\Rabotnik_Sklada.baml
+C:\Users\psvag\Desktop\practicheskie\nastygl_pr3_22.106\nastygl_pr3_22.106\obj\Debug\Pages\SkladOtchet.baml
+C:\Users\psvag\Desktop\practicheskie\nastygl_pr3_22.106\nastygl_pr3_22.106\obj\Debug\nastygl_pr3_22.106.g.resources
+C:\Users\psvag\Desktop\practicheskie\nastygl_pr3_22.106\nastygl_pr3_22.106\obj\Debug\nastygl_pr3_22._106.Properties.Resources.resources
+C:\Users\psvag\Desktop\practicheskie\nastygl_pr3_22.106\nastygl_pr3_22.106\obj\Debug\nastygl_pr3_22.106.csproj.GenerateResource.cache
+C:\Users\psvag\Desktop\practicheskie\nastygl_pr3_22.106\nastygl_pr3_22.106\obj\Debug\nastygl_pr3_22.106.csproj.CoreCompileInputs.cache
+C:\Users\psvag\Desktop\practicheskie\nastygl_pr3_22.106\nastygl_pr3_22.106\obj\Debug\nastygl_pr3_22.106.csproj.CopyComplete
+C:\Users\psvag\Desktop\practicheskie\nastygl_pr3_22.106\nastygl_pr3_22.106\obj\Debug\nastygl_pr3_22.106.csproj.ResolveComReference.cache

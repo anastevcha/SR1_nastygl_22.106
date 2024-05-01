@@ -5,18 +5,18 @@ using System.Linq;
 
 namespace nastygl_pr3_22._106.Model
 {
-    public partial class Model11 : DbContext
+    public partial class Model1 : DbContext
     {
-        private static Model11 _instance;
-        public Model11()
-            : base("name=Model11")
+        private static Model1 _instance;
+        public Model1()
+            : base("name=Model1")
         {
         }
-        public static Model11 GetContext()
+        public static Model1 GetContext()
         {
             if (_instance == null)
             {
-                _instance = new Model11();
+                _instance = new Model1();
             }
             return _instance;
         }
@@ -30,6 +30,7 @@ namespace nastygl_pr3_22._106.Model
         public virtual DbSet<Modeli> Modeli { get; set; }
         public virtual DbSet<Otchety> Otchety { get; set; }
         public virtual DbSet<Otzyvy> Otzyvy { get; set; }
+        public virtual DbSet<Pasport> Pasport { get; set; }
         public virtual DbSet<Postavshiki> Postavshiki { get; set; }
         public virtual DbSet<Razmer_Odejdy> Razmer_Odejdy { get; set; }
         public virtual DbSet<Skidki> Skidki { get; set; }
@@ -42,21 +43,10 @@ namespace nastygl_pr3_22._106.Model
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
-            modelBuilder.Entity<Avtorizacia>()
-                .HasMany(e => e.Sotrudniki)
-                .WithRequired(e => e.Avtorizacia)
-                .WillCascadeOnDelete(false);
-
             modelBuilder.Entity<Cvet_Materiala>()
                 .HasMany(e => e.Materialy)
                 .WithRequired(e => e.Cvet_Materiala1)
                 .HasForeignKey(e => e.Cvet_Materiala)
-                .WillCascadeOnDelete(false);
-
-            modelBuilder.Entity<Doljnost>()
-                .HasMany(e => e.Sotrudniki)
-                .WithRequired(e => e.Doljnost1)
-                .HasForeignKey(e => e.Doljnost)
                 .WillCascadeOnDelete(false);
 
             modelBuilder.Entity<Izdeliya>()

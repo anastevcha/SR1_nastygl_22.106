@@ -20,9 +20,10 @@ namespace nastygl_pr3_22._106.Pages
     /// </summary>
     public partial class Portnoy : Page
     {
-        public Portnoy()
+        public Portnoy(string imya, string familiya, string otchestvo, string privetstvie)
         {
             InitializeComponent();
+            txtbFIO.Text = $"{privetstvie} {familiya} {imya} {otchestvo}";
         }
     }
 }

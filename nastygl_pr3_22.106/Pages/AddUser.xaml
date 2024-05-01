@@ -1,0 +1,82 @@
+﻿<Page x:Class="nastygl_pr3_22._106.Pages.AddUser"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:nastygl_pr3_22._106.Pages"
+      mc:Ignorable="d" d:DesignWidth ="552"
+
+      Title="AddUser" 
+      
+      Background="White" Height="516" >
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+
+        <Label Content="Фамилия" Grid.Row="0" Grid.Column="0" HorizontalAlignment="Right" VerticalAlignment="Center" Height="40"/>
+        <TextBox x:Name="txbFamiliya" Grid.Row="0" Grid.Column="1" VerticalAlignment="Center" HorizontalAlignment="Center" Width="170" Height="25"/>
+
+        <Label Content="Имя" Grid.Row="1" Grid.Column="0" HorizontalAlignment="Right" VerticalAlignment="Center" Height="40"/>
+        <TextBox x:Name="txbImya" Grid.Row="1" Grid.Column="1" VerticalAlignment="Center" HorizontalAlignment="Center" Width="170" Height="25"/>
+
+        <Label Content="Отчество" Grid.Row="2" Grid.Column="0" HorizontalAlignment="Right" VerticalAlignment="Center" Height="40"/>
+        <TextBox x:Name="txbOtchestvo" Grid.Row="2" Grid.Column="1" VerticalAlignment="Center" HorizontalAlignment="Center" Width="170" Height="25" />
+
+        <Label Content="Возраст" Grid.Row="3" Grid.Column="0" HorizontalAlignment="Right" VerticalAlignment="Center" Height="40"/>
+        <TextBox x:Name="txbVozrast" Grid.Row="3" Grid.Column="1" VerticalAlignment="Center" HorizontalAlignment="Center" Width="170" Height="25"/>
+
+        <Label Content="Зарплата" Grid.Row="4" Grid.Column="0" HorizontalAlignment="Right" VerticalAlignment="Center" Height="40"/>
+        <TextBox x:Name="txbZarplata" Grid.Row="4" Grid.Column="1" VerticalAlignment="Center" HorizontalAlignment="Center" Width="170" Height="25"/>
+
+        <Label Content="Стаж" Grid.Row="5" Grid.Column="0" HorizontalAlignment="Right" VerticalAlignment="Center" Height="40"/>
+        <TextBox x:Name="txbStag" Grid.Row="5" Grid.Column="1" VerticalAlignment="Center" HorizontalAlignment="Center" Width="170" Height="25"/>
+
+        <Label Content="Должность" Grid.Row="6" Grid.Column="0" HorizontalAlignment="Right" VerticalAlignment="Center" Height="40"/>
+        <TextBox x:Name="txbDoljnost" Grid.Row="6" Grid.Column="1" VerticalAlignment="Center" HorizontalAlignment="Center" Width="170" Height="25"/>
+        <Label Content="Почта" Grid.Row="7" Grid.Column="0" HorizontalAlignment="Right" VerticalAlignment="Center" Height="40"/>
+        <TextBox x:Name="txbPochta" Grid.Row="7" Grid.Column="1" VerticalAlignment="Center" HorizontalAlignment="Center" Width="170" Height="25"/>
+
+
+        <Label Content="Логин" Grid.Row="8" Grid.Column="0" HorizontalAlignment="Right" VerticalAlignment="Center" Height="40"/>
+        <TextBox x:Name="txbLogin" Grid.Row="8" Grid.Column="1" VerticalAlignment="Center" HorizontalAlignment="Center" Width="170" Height="25"/>
+
+        <Label Content="Пароль" Grid.Row="9" Grid.Column="0" HorizontalAlignment="Right" VerticalAlignment="Center" Height="40"/>
+        <TextBox x:Name="txbParol" Grid.Row="9" Grid.Column="1" VerticalAlignment="Center" HorizontalAlignment="Center" Width="170" Height="25"/>
+
+        <Label Content="Серия паспорта" Grid.Row="10" Grid.Column="0" HorizontalAlignment="Right" VerticalAlignment="Center" Height="40"/>
+        <TextBox x:Name="txbSeriya" Grid.Row="10" Grid.Column="1" VerticalAlignment="Center" HorizontalAlignment="Center" Width="170" Height="25"/>
+
+        <Label Content="Номер паспорта" Grid.Row="11" Grid.Column="0" HorizontalAlignment="Right" VerticalAlignment="Center" Height="40"/>
+        <TextBox x:Name="txbNomer" Grid.Row="11" Grid.Column="1" VerticalAlignment="Center" HorizontalAlignment="Center" Width="170" Height="25"/>
+
+        <Label Content="Кем выдан паспорт" Grid.Row="12" Grid.Column="0" HorizontalAlignment="Right" VerticalAlignment="Center" Height="40"/>
+        <TextBox x:Name="txbKemVydan" Grid.Row="12" Grid.Column="1" VerticalAlignment="Center" HorizontalAlignment="Center" Width="170" Height="25"/>
+
+        <Button Content="Добавить фото" Grid.Column="2" Grid.Row="3" Margin="0" />
+
+        <Button Content="Сохранить" Grid.Row="13" Grid.Column="0" Margin="0" Click="Button_Click_2"/>
+        <Button Content="Очистить" Grid.Row="13" Grid.Column="1"  Margin="0" Click="Button_Click_3" />
+
+        <Image Grid.RowSpan="3" Grid.Row="0" Grid.Column="2" Source="/Resources/User.jpg"/>
+    </Grid>
+</Page>

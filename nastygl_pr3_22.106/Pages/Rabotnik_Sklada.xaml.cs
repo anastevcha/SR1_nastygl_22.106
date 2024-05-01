@@ -20,9 +20,10 @@ namespace nastygl_pr3_22._106.Pages
     /// </summary>
     public partial class Rabotnik_Sklada : Page
     {
-        public Rabotnik_Sklada()
+        public Rabotnik_Sklada(string imya, string familiya, string otchestvo, string privetstvie)
         {
             InitializeComponent();
+            txtbFIO.Text = $"{privetstvie} {familiya} {imya} {otchestvo}";
         }
     }
 }

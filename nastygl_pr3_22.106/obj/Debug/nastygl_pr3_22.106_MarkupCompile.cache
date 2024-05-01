@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\psvag\Desktop\практические оап\nastygl_pr3_22.106\nastygl_pr3_22.106\obj\Debug\
+C:\Users\psvag\Desktop\practicheskie\nastygl_pr3_22.106\nastygl_pr3_22.106\obj\Debug\
 nastygl_pr3_22._106
 none
 false
 DEBUG;TRACE
-C:\Users\psvag\Desktop\практические оап\nastygl_pr3_22.106\nastygl_pr3_22.106\App.xaml
-8-1465092001
+C:\Users\psvag\Desktop\practicheskie\nastygl_pr3_22.106\nastygl_pr3_22.106\App.xaml
+14417345541
 
-31-1705065455
-21981134828
-MainWindow.xaml;Pages\Admin.xaml;Pages\Autho.xaml;Pages\Dizayner.xaml;Pages\Guests.xaml;Pages\Konsultant.xaml;Pages\Portnoy.xaml;Pages\Rabotnik_Sklada.xaml;
+5713220672
+29-2031397966
+MainWindow.xaml;Pages\AddUser.xaml;Pages\Admin.xaml;Pages\Autho.xaml;Pages\ChangePassword.xaml;Pages\Client.xaml;Pages\Dizayner.xaml;Pages\Edit.xaml;Pages\Guests.xaml;Pages\Konsultant.xaml;Pages\Portnoy.xaml;Pages\Potverjdenie_Parolya.xaml;Pages\Rabotnik_Sklada.xaml;Pages\SkladOtchet.xaml;
 
 False
 

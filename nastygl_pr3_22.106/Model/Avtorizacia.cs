@@ -9,12 +9,6 @@ namespace nastygl_pr3_22._106.Model
     [Table("Avtorizacia")]
     public partial class Avtorizacia
     {
-        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors")]
-        public Avtorizacia()
-        {
-            Sotrudniki = new HashSet<Sotrudniki>();
-        }
-
         [Key]
         public int ID_Avtorizacii { get; set; }
 
@@ -23,8 +17,5 @@ namespace nastygl_pr3_22._106.Model
 
         [Required]
         public string Parol { get; set; }
-
-        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
-        public virtual ICollection<Sotrudniki> Sotrudniki { get; set; }
     }
 }

@@ -78,6 +78,7 @@ namespace AddUser
             }
 
         }
+        
         public static string IsFIO()
         {
             Regex formatFIO = new Regex("^[а-яА-Я]+$");
@@ -101,8 +102,13 @@ namespace AddUser
 
 
         }
+        /// <summary>
+        /// Метод проверяет правильность ввода логина, проверяет подходит ли под регулярное выражение
+        /// </summary>
+        /// <returns>Вернет строку</returns>
         public static string IsLogin()
         {
+
             Regex formatLogina = new Regex("^[а-яА-Я0-9]$");
             string login;
             do

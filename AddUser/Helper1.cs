@@ -14,6 +14,10 @@ namespace AddUser
     {
 
         public static atelieEntities s_atelieEntities;
+        /// <summary>
+        /// Метод для получения контекста базы данных
+        /// </summary>
+        /// <returns>Вернет подключение к базе данных</returns>
         public static atelieEntities GetContext()
         {
             if (s_atelieEntities == null)

@@ -9,20 +9,11 @@ namespace nastygl_pr3_22._106.Model
     [Table("Doljnost")]
     public partial class Doljnost
     {
-        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors")]
-        public Doljnost()
-        {
-            Sotrudniki = new HashSet<Sotrudniki>();
-        }
-
         [Key]
         public int ID_Doljnosti { get; set; }
 
         [Required]
         [StringLength(50)]
         public string Nazvanie { get; set; }
-
-        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
-        public virtual ICollection<Sotrudniki> Sotrudniki { get; set; }
     }
 }

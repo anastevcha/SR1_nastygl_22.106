@@ -19,7 +19,8 @@
             <TextBox x:Name="txtbLogin"/>
             <TextBlock x:Name="txtParol" Text="Пароль"/>
             <PasswordBox x:Name="psswbPassword"/>
-            <TextBlock x:Name="timerLabel" Visibility="Hidden"/> 
+            <Button x:Name="btnCod" Content="Подтвердить" Click="btnCod_Click" />
+            <TextBlock x:Name="timerLabel" Visibility="Hidden"/>
             <TextBlock x:Name="txtBlockCaptcha" Text="Капча:*"/>
             <TextBox x:Name="txtboxCaptcha"/>
             <TextBlock HorizontalAlignment="Center" Visibility="Hidden" x:Name="txtBlockTimer"/>
@@ -28,6 +29,7 @@
                 <Button x:Name="btnEnter" Margin="5,15,5,5" Content="Войти" Click="btnEnter_Click"/>
             </StackPanel>
         </StackPanel>
+        <Button x:Name="noPassword" Content="Забыли пароль?" Width="NaN" Background="White" BorderBrush="White" Click="noPassword_Click" Margin="63,400,63,10" Grid.Column="1"/>
 
 
 
